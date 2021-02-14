@@ -1,4 +1,4 @@
-<?php  $cmrId = Session::get("cmrId");?>
+<?php  $cmrId = $session::get("cmrId");?>
 <!--================Header Menu Area =================-->
 <header class="header_area">
   <div class="top_menu">
@@ -43,7 +43,7 @@
                     // }
                    ?>
                   <?php 
-                    $login = Session::get("cuslogin");
+                    $login = $session::get("cuslogin");
                     if ($login == false) {
                         ?>
                         <a href="login.php">Sign In</a>

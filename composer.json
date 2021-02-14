@@ -1,5 +1,5 @@
 {
-    "name": "user/ecommerce",
+    "name": "multivendor/ecommerce",
     "authors": [
         {
             "name": "Orutu Akposieyefa Williams",
@@ -8,10 +8,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "app\\": "./"
+            "app": "./app"
         }
     },
     "require": {
-
+        "phpmailer/phpmailer": "^6.2"
     }
 }

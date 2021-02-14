@@ -1,6 +1,6 @@
 <?php include_once('layouts/header.php');?>
 <?php 
-  $login = Session::get("cuslogin");
+  $login = $session::get("cuslogin");
   if ($login == true) {
       header("Location:order.php");
   }
