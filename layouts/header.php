@@ -1,6 +1,6 @@
 <?php
  
- require 'vendor/autoload.php';
+    require 'vendor/autoload.php';
 
     use app\lib\Session;
     use app\lib\DB;
@@ -9,9 +9,11 @@
     use app\core\Category;
     use app\core\Customer;
     use app\core\Cart;
+    use app\core\Contact;
+    use app\core\Tenant;
 
-   $session = new Session;
-   $session::init();
+    $session = new Session;
+    $session::init();
 
     $db   =   new DB();
     $fm   =   new Format();
@@ -19,8 +21,9 @@
     $ct   =   new Cart();
     $cat  =  new Category();
     $cmr  =  new Customer();
-    // $cnt  =  new Contact();
-    // $ph   =   new Pharmacy();
+    $cnt  =  new Contact();
+    $ph   =   new Tenant();
+
  ?>
 <?php
   header("Cache-Control: no-cache, must-revalidate");

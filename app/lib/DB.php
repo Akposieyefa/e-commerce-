@@ -1,7 +1,8 @@
 <?php
+
     namespace app\lib;
     use mysqli;
-    
+
     class DB
     {
 

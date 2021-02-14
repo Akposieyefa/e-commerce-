@@ -4,7 +4,8 @@
 
     use app\lib\DB;
     use app\lib\Format;
-    class Pharmacy
+
+    class Tenant
     {
         private $db;
         private $fm;
@@ -131,16 +132,16 @@
                 $result = $this->db->select($query);
                 if ($result != false) {
                     $value = $result->fetch_assoc();
-                    Session::set("phamlogin", true);
-                    Session::set("phamId",      $value['id']);
-                    Session::set("phamUser",    $value['name']);
-                    Session::set("phamEmail",   $value['email']);
-                    Session::set("phamPhone",   $value['phone']);
-                    Session::set("phamAddress", $value['address']);
-                    Session::set("phamDesc",    $value['descr']);
-                    Session::set("phamRegDate", $value['created_at']);
-                    Session::set("phamStatus",  $value['status']);
-                    Session::set("phamName",    $value['pname']);
+                    $session::set("phamlogin", true);
+                    $session::set("phamId",      $value['id']);
+                    $session::set("phamUser",    $value['name']);
+                    $session::set("phamEmail",   $value['email']);
+                    $session::set("phamPhone",   $value['phone']);
+                    $session::set("phamAddress", $value['address']);
+                    $session::set("phamDesc",    $value['descr']);
+                    $session::set("phamRegDate", $value['created_at']);
+                    $session::set("phamStatus",  $value['status']);
+                    $session::set("phamName",    $value['pname']);
                     header("Location:dashboard.php");
                 } else {
                     $loginmsg = "Email or Password not match!";
