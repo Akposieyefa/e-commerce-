@@ -33,24 +33,41 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="icon" href="img/favicon.png" type="image/png" />
-    <title>MedicPlaza</title>
-    <link rel="stylesheet" href="../layouts/css/bootstrap.css" />
-    <link rel="stylesheet" href="../layouts/vendors/linericon/style.css" />
-    <link rel="stylesheet" href="../layouts/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="../layouts/css/themify-icons.css" />
-    <link rel="stylesheet" href="../layouts/css/flaticon.css" />
-    <link rel="stylesheet" href="../layouts/vendors/owl-carousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="../layouts/vendors/lightbox/simpleLightbox.css" />
-    <link rel="stylesheet" href="../layouts/../layouts/vendors/nice-select/css/nice-select.css" />
-    <link rel="stylesheet" href="../layouts/vendors/animate-css/animate.css" />
-    <link rel="stylesheet" href="../layouts/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="../layouts/css/style.css" />
-    <link rel="stylesheet" href="../layouts/css/responsive.css" />
-    <link rel='icon' href="img/b1.jpg" type='image/x-icon'/ >
-  </head>
 
-<body>
+
+<!-- Mirrored from d-themes.com/html/donald/demo11.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Feb 2021 01:26:06 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Donald - Bootstrap eCommerce Template</title>
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Donald - Bootstrap eCommerce Template">
+    <meta name="author" content="D-THEMES">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./layouts/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./layouts/vendors/animate/animate.min.css">
+
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" type="text/css" href="./layouts/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="./layouts/vendors/owl-carousel/owl.carousel.min.css">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" type="text/css" href="./layouts/css/demo11.min.css">
+
+
+    <script>
+        WebFontConfig = {
+            google: { families: ['Open+Sans:400,600,700', 'Poppins:400,600,700'] }
+        };
+        (function (d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'js/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+</head>
+
+<body class="home">

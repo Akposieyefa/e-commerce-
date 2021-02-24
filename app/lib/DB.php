@@ -9,7 +9,7 @@
         public $host   = 'localhost';
         public $user   = 'root';
         public $pass   = '';
-        public $dbname = 'db_medicplaza';
+        public $dbname = 'ecomm';
 
         public $link;
         public $error;
